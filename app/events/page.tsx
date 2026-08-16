@@ -1,12 +1,11 @@
 import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/sections/Hero";
+import Events from "@/components/sections/Events";
 
-
-export default function Home() {
+export default function EventsPage() {
   return (
     <main className="bg-black">
       <Navbar />
-      <Hero />
+      <Events />
     </main>
   );
 }

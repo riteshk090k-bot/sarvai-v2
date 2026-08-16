@@ -1,12 +1,11 @@
 import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
 
-
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="bg-black">
       <Navbar />
-      <Hero />
+      <About />
     </main>
   );
 }

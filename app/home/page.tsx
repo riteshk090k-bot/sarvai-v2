@@ -1,8 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 
-
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="bg-black">
       <Navbar />
